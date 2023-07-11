@@ -7,7 +7,7 @@
 }
 
 .btn {
-    background-color: #E55473;
+    background-color: #e55454;
     color: white;
     padding: 20px 40px;
     border: 0;
@@ -44,7 +44,7 @@
 /* Banner Styles */
 
 .banner-container {
-    background-color: rgba(229, 84, 115, 0.10);
+    background-color: rgba(59, 178, 199, 0.445);
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-position: center;
@@ -243,10 +243,12 @@
     margin-right: 16px;
 }
 
+/* Creative/ Why-us Styles */
+
 /* Footer Styles */
 
 .footer-content {
-    background-color: #1a1616;
+    background-color: #191e1f;
     padding: 128px 648px;
     text-align: center;
 }
@@ -267,7 +269,7 @@
 }
 
 .footer-content>small {
-    color: rgba(255, 255, 255, 0.40);
+    color: rgba(255, 255, 255, 0.4);
     font-size: 16px;
     font-weight: 400;
 }
