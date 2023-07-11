@@ -232,7 +232,7 @@
     margin: 0px 235px;
     padding: 122px 287px;
     border-radius: 10px;
-    margin-bottom: 128px;
+    /* margin-bottom: 128px; */
 }
 
 .sub-form input[type="email"] {
@@ -244,6 +244,58 @@
 }
 
 /* Creative/ Why-us Styles */
+
+.why-us{
+    margin: 128px 287px;
+}
+
+.why-us-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;   
+    margin-top: 50px;
+}
+
+.why-us-box{
+    width: 330px;
+    height: 290px;
+    background-color: rgb(236, 224, 224);
+    padding: 20px;
+    box-shadow: 0px 0px 20px 4px rgb(194, 178, 178);
+}
+
+.why-us-box:hover{
+    box-shadow: 1px 1px 40px 6px  rgb(194, 178, 178);
+    transition: .3s ease-in-out;
+    background-color: white;
+    color: #e55454;
+}
+
+.why-us-box i{
+    font-size: 48px;
+    padding-top: 10px;
+}
+
+.why-us-box i:hover{
+    color: #e55454;
+    transition: .3s ease-in;
+    rotate: 360deg;
+}
+
+.why-us-box h4{
+    padding: 20px 0px;
+    font-size: 22px;
+    /* color: #2B3330; */
+}
+
+.why-us-box p{
+    width: 80%;
+    margin: auto;
+    /* color: gray; */
+    font-size: 18px;
+    line-height: 30px;
+}
 
 /* Footer Styles */
 
