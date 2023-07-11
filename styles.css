@@ -90,13 +90,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 16px;
+    gap: 24px;
 }
 
 .feature-box {
     border-radius: 300px 300px 0px 0px;
     background-color: rgba(167, 33, 98, 0.15);
-    width: 464px;
+    width: 456px;
     height: 538px;
 }
 
@@ -178,12 +178,15 @@
     justify-content: space-around;
     align-items: center;
     padding: 100px 0px;
-    gap: 100px;
+    /* gap: 100px; */
 }
 
-.sign-up-content {
-    padding-left: 300px;
 
+.sign-up-content {
+    padding-left: 220px;
+    width: 43%;
+    margin: auto;
+    padding-top: 70px;
 }
 
 .sign-up-pic {
@@ -208,13 +211,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 22px;
+    gap: 24px;
 }
 
 .social-box {
     box-shadow: 0px 0px 5px 0px rgb(182, 165, 165);
     height: 396px;
-    width: 340px;
+    width: 338px;
 }
 
 .social-box:hover {
