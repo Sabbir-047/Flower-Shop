@@ -1,12 +1,12 @@
 /* Common Styles */
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
 }
 
-.btn{
+.btn {
     background-color: #E55473;
     color: white;
     padding: 20px 40px;
@@ -16,14 +16,14 @@
     font-weight: bolder;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: orangered;
     transition: .25s ease-in;
     box-shadow: 0px 0px 10px 1px gray;
     rotate: 1deg;
 }
 
-.main-title{
+.main-title {
     color: #272727;
     text-align: center;
     font-size: 40px;
@@ -31,8 +31,8 @@
     font-family: sans-serif;
 }
 
-.main-description{
-    color: rgba(39, 39,39, 0.60);
+.main-description {
+    color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     line-height: 30px;
     text-align: center;
@@ -43,7 +43,7 @@
 
 /* Banner Styles */
 
-.banner-container{
+.banner-container {
     background-color: rgba(229, 84, 115, 0.10);
     background-blend-mode: overlay;
     background-repeat: no-repeat;
@@ -57,67 +57,67 @@
     gap: 85px;
 }
 
-.banner-content{
+.banner-content {
     max-width: 708px;
 }
 
-.banner-title{
+.banner-title {
     font-size: 80px;
 }
 
-.banner-description{
+.banner-description {
     padding: 32px 0px;
     padding-right: 58px;
-    color: rgba(39, 39,39, 0.69);
+    color: rgba(39, 39, 39, 0.69);
     font-size: 18px;
     line-height: 30px;
 }
 
-.banner-pic{
+.banner-pic {
     padding-top: 50px;
 }
 
 /* Feature Styles */
 
-.feature{
+.feature {
     padding: 178px 240px 128px;
 }
 
-.feature-box-container{
+.feature-box-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 16px;
 }
 
-.feature-box{
+.feature-box {
     border-radius: 300px 300px 0px 0px;
     background-color: rgba(167, 33, 98, 0.15);
     width: 464px;
     height: 538px;
 }
 
-.feature-box-two{
+.feature-box-two {
     background-color: rgba(5, 151, 160, 0.15);
 }
 
-.feature-box-three{
+.feature-box-three {
     background-color: rgba(71, 125, 17, 0.15);
 }
 
-.feature-pic{
+.feature-pic {
     width: 310px;
     height: 428px;
     padding: 110px 78px 0px 78px;
 }
 
-.feature-pic-two{
+.feature-pic-two {
     width: 370px;
     height: 370px;
     padding: 117px 47px 0px 47px;
 }
 
-.feature-pic-three{
+.feature-pic-three {
     width: 314px;
     height: 471px;
     padding: 67px 75px 0px 75px;
@@ -132,7 +132,7 @@
     font-weight: 700;
 } */
 
-.feature-caption{
+.feature-caption {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -145,7 +145,7 @@
 
 /* Service Styles */
 
-.service-container{
+.service-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -156,7 +156,7 @@
     padding: 86px 125px;
 }
 
-.service > h4{
+.service>h4 {
     color: rgba(39, 39, 39, 0.80);
     font-size: 23px;
     font-weight: 680;
@@ -165,12 +165,12 @@
 
 /* Sign Up Styles */
 
-.sign-up{
+.sign-up {
     background-color: rgba(229, 84, 115, 0.05);
     text-align: center;
 }
 
-.sign-up-container{
+.sign-up-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -178,17 +178,17 @@
     gap: 100px;
 }
 
-.sign-up-content{
+.sign-up-content {
     padding-left: 300px;
 
 }
 
-.sign-up-pic{
+.sign-up-pic {
     padding-right: 429px;
 }
 
-.sign-up-description{
-    color: rgba(39, 39,39, 0.60);
+.sign-up-description {
+    color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     line-height: 30px;
     text-align: center;
@@ -197,31 +197,31 @@
 
 /* Social Styles */
 
-.social{
+.social {
     padding: 128px 240px;
 }
 
-.social-box-container{
+.social-box-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 22px;
 }
 
-.social-box{
+.social-box {
     box-shadow: 0px 0px 5px 0px rgb(182, 165, 165);
     height: 396px;
     width: 340px;
 }
 
-.social-box:hover{
-    box-shadow: 1px 1px 20px 0px  rgb(182, 165, 165);
+.social-box:hover {
+    box-shadow: 1px 1px 20px 0px rgb(182, 165, 165);
     transition: 0.2s ease-in;
 }
 
 /* Subscription Styles */
 
-.subscription{
+.subscription {
     /* width: 75%;
     margin: auto; */
     background-image: url("assets/subscribe.png"), linear-gradient(rgba(192, 127, 127, 0.9), rgba(168, 104, 104, 0.9));
@@ -230,12 +230,12 @@
     background-position: center;
     background-size: cover;
     margin: 0px 235px;
-    padding: 122px 287px ;
+    padding: 122px 287px;
     border-radius: 10px;
     margin-bottom: 128px;
 }
 
-.sub-form input[type="email"]{
+.sub-form input[type="email"] {
     padding: 22px 23px;
     padding-right: 443px;
     border: 0px;
@@ -245,27 +245,28 @@
 
 /* Footer Styles */
 
-.footer-content{
-    background-color: #111010;
+.footer-content {
+    background-color: #1a1616;
     padding: 128px 648px;
     text-align: center;
 }
 
-.footer-title{
-    color: rgba(255, 255, 255, 0.90);
+.footer-title {
+    color: rgba(255, 255, 255, 0.9);
     font-size: 48px;
     font-weight: 800;
 }
 
-.footer-description{
+.footer-description {
     color: white;
     font-weight: 400;
     font-size: 18px;
     padding-top: 24px;
     padding-bottom: 32px;
+    line-height: 30px;
 }
 
-.footer-content > small{
+.footer-content>small {
     color: rgba(255, 255, 255, 0.40);
     font-size: 16px;
     font-weight: 400;
