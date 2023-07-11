@@ -28,7 +28,7 @@
 
 .banner-container{
     background-color: rgba(229, 84, 115, 0.10);
-    height: 90vh;
+    height: 91vh;
     display: flex;
     padding: 1px 240px;
     justify-content: space-between;
@@ -46,12 +46,12 @@
 
 .banner-description{
     padding: 32px 0px;
-    padding-right: 54px;
+    padding-right: 58px;
     color: rgba(39, 39,39, 0.69);
     font-size: 18px;
     line-height: 30px;
 }
 
 .banner-pic{
-    margin-bottom: 90px;
+    padding-top: 50px;
 }
