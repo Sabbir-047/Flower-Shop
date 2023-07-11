@@ -44,7 +44,7 @@
 /* Banner Styles */
 
 .banner-container {
-    background-color: rgba(59, 178, 199, 0.445);
+    background-color: rgba(84, 222, 247, 0.445);
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-position: center;
@@ -150,7 +150,7 @@
     justify-content: space-around;
     align-items: center;
     border-radius: 8px;
-    background-color: rgba(39, 39, 39, 0.05);
+    background-color: rgba(131, 206, 219, 0.877);
     margin-top: 128px;
     text-align: center;
     padding: 86px 125px;
@@ -166,7 +166,7 @@
 /* Sign Up Styles */
 
 .sign-up {
-    background-color: rgba(229, 84, 115, 0.05);
+    background-color: rgba(131, 206, 219, 0.877);
     text-align: center;
 }
 
@@ -262,7 +262,8 @@
     height: 290px;
     background-color: rgb(236, 224, 224);
     padding: 20px;
-    box-shadow: 0px 0px 20px 4px rgb(194, 178, 178);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 1px rgb(194, 178, 178);
 }
 
 .why-us-box:hover{
@@ -286,13 +287,13 @@
 .why-us-box h4{
     padding: 20px 0px;
     font-size: 22px;
-    /* color: #2B3330; */
+    color: #2B3330;
 }
 
 .why-us-box p{
     width: 80%;
     margin: auto;
-    /* color: gray; */
+    color: rgba(39, 39, 39, 0.6);
     font-size: 18px;
     line-height: 30px;
 }
