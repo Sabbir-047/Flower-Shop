@@ -75,14 +75,14 @@
 /* Feature Styles */
 
 .feature{
-    padding: 178px 240px 128px 240px;
+    padding: 178px 240px 128px;
 }
 
 .feature-box-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 24px;
+    gap: 16px;
 }
 
 .feature-box{
@@ -138,5 +138,24 @@
     font-weight: 700;
 }
 
-/* Feature Optional Styles */
+/* Service Styles */
 
+.service-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    background-color: rgba(39, 39, 39, 0.05);
+    margin-top: 128px;
+    text-align: center;
+    padding: 86px 125px;
+}
+
+.service > h4{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 23px;
+    font-weight: 680;
+    padding-top: 24px;
+}
+
+/* Sign Up Styles */
