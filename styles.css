@@ -44,17 +44,17 @@
 /* Banner Styles */
 
 .banner-container {
-    background-color: rgba(84, 222, 247, 0.445);
+    background-color: rgba(229, 84, 115, 0.10);
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 91vh;
+    /* height: 91.5vh; */
     display: flex;
     padding: 1px 240px;
     justify-content: space-between;
     align-items: center;
-    gap: 85px;
+    /* gap: 85px; */
 }
 
 .banner-content {
@@ -75,6 +75,9 @@
 
 .banner-pic {
     padding-top: 50px;
+    width: 635px;
+    height: 800px;
+    flex-shrink: 0;
 }
 
 /* Feature Styles */
@@ -150,7 +153,7 @@
     justify-content: space-around;
     align-items: center;
     border-radius: 8px;
-    background-color: rgba(131, 206, 219, 0.877);
+    background-color: rgb(207 103 113 / 33%);
     margin-top: 128px;
     text-align: center;
     padding: 86px 125px;
@@ -166,7 +169,7 @@
 /* Sign Up Styles */
 
 .sign-up {
-    background-color: rgba(131, 206, 219, 0.877);
+    background-color: rgba(229, 84, 115, 0.05);
     text-align: center;
 }
 
@@ -260,10 +263,10 @@
 .why-us-box{
     width: 330px;
     height: 290px;
-    background-color: rgb(236, 224, 224);
+    background-color: rgba(231, 182, 182, 0.685);
     padding: 20px;
     border-radius: 20px;
-    box-shadow: 0px 0px 20px 1px rgb(194, 178, 178);
+    box-shadow: 0px 0px 20px 2px rgb(194, 178, 178);
 }
 
 .why-us-box:hover{
