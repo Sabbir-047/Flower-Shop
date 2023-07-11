@@ -45,6 +45,10 @@
 
 .banner-container{
     background-color: rgba(229, 84, 115, 0.10);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     height: 91vh;
     display: flex;
     padding: 1px 240px;
@@ -217,3 +221,24 @@
 
 /* Subscription Styles */
 
+.subscription{
+    /* width: 75%;
+    margin: auto; */
+    background-image: url("assets/subscribe.png"), linear-gradient(rgba(192, 127, 127, 0.9), rgba(168, 104, 104, 0.9));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0px 235px;
+    padding: 122px 287px ;
+    border-radius: 10px;
+    margin-bottom: 128px;
+}
+
+.sub-form input[type="email"]{
+    padding: 22px 23px;
+    padding-right: 443px;
+    border: 0px;
+    border-radius: 8px;
+    margin-right: 16px;
+}
